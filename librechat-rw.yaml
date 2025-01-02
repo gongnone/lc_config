@@ -34,10 +34,10 @@ endpoints:
     #  summaryModel: "meta-llama/Llama-2-7b-chat-hf"
     #  forcePrompt: false
     #  modelDisplayLabel: "Anyscale"
-      
+    
     # APIpie
     - name: "APIpie"
-      apiKey: "${APIPIE_API_KEY}"
+    # apiKey: "${APIPIE_API_KEY}"
       baseURL: "https://apipie.ai/v1/"
       models:
         default: [
@@ -61,7 +61,7 @@ endpoints:
       titleConvo: true
       titleModel: "gpt-3.5-turbo"
       dropParams: ["stream"]
- 
+
     #cohere
     - name: "cohere"
       apiKey: "${COHERE_API_KEY}"
@@ -75,7 +75,7 @@ endpoints:
  
     # Fireworks
     - name: "Fireworks"
-      apiKey: "${FIREWORKS_API_KEY}"
+    # apiKey: "${FIREWORKS_API_KEY}"
       baseURL: "https://api.fireworks.ai/inference/v1"
       models:
         default: [
@@ -92,7 +92,7 @@ endpoints:
   
     # groq
     - name: "groq"
-      apiKey: "${GROQ_API_KEY}"
+    # apiKey: "${GROQ_API_KEY}"
       baseURL: "https://api.groq.com/openai/v1/"
       models:
         default: [
@@ -109,7 +109,7 @@ endpoints:
  
     # Mistral AI API
     - name: "Mistral"
-      apiKey: "${MISTRAL_API_KEY}"
+    # apiKey: "${MISTRAL_API_KEY}"
       baseURL: "https://api.mistral.ai/v1"
       models:
         default: [
@@ -126,7 +126,7 @@ endpoints:
  
     # OpenRouter.ai
     - name: "OpenRouter"
-      apiKey: "${OPENROUTER_KEY}"
+    # apiKey: "${OPENROUTER_KEY}"
       baseURL: "https://openrouter.ai/api/v1"
       models:
         default: ["openai/gpt-3.5-turbo"]
@@ -140,7 +140,7 @@ endpoints:
  
     # Perplexity
     - name: "Perplexity"
-      apiKey: "${PERPLEXITY_API_KEY}"
+    # apiKey: "${PERPLEXITY_API_KEY}"
       baseURL: "https://api.perplexity.ai/"
       models:
         default: [
@@ -161,7 +161,7 @@ endpoints:
  
     # ShuttleAI API
     - name: "ShuttleAI"
-      apiKey: "${SHUTTLEAI_API_KEY}"
+    # apiKey: "${SHUTTLEAI_API_KEY}"
       baseURL: "https://api.shuttleai.app/v1"
       models:
         default: [
@@ -178,7 +178,7 @@ endpoints:
  
     # together.ai
     - name: "together.ai"
-      apiKey: "${TOGETHERAI_API_KEY}"
+    # apiKey: "${TOGETHERAI_API_KEY}"
       baseURL: "https://api.together.xyz"
       models:
         default: [
