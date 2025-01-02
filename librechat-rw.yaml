@@ -27,14 +27,14 @@ endpoints:
         default: [
           "meta-llama/Llama-2-7b-chat-hf",
           ]
-        fetch: true
+        fetch: false
       titleConvo: true
       titleModel: "meta-llama/Llama-2-7b-chat-hf"
       summarize: false
       summaryModel: "meta-llama/Llama-2-7b-chat-hf"
       forcePrompt: false
       modelDisplayLabel: "Anyscale"
- 
+      
     # APIpie
     - name: "APIpie"
       apiKey: "${APIPIE_API_KEY}"
